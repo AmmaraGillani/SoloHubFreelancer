@@ -1,9 +1,23 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # SoloHubFreelancer
+
+A simple app for freelancers to manage projects, track time, and generate invoices for clients. Users can add clients, create projects, track hours worked, and generate downloadable invoices in PDF format.
+
+## Features
+- Client Management: Add, edit, and delete clients
+- Project Management: Create, assign to clients, and track time spent
+- Time Tracking: Log hours for each project
+- Invoice Generation: Download invoices as PDF
+
+## Tech Stack
+- **Frontend**: React, Vite
+- **Backend**: Node.js, Express, MongoDB
+- **Invoice Generation**: jsPDF
+
+## Installation
+
+### Prerequisites
+- Node.js and npm installed on your machine
+- MongoDB installed and running
+
+
+
